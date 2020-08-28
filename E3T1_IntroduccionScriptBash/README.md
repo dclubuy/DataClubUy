@@ -139,13 +139,11 @@ read P
 if [ $P = 30.48 ];
 then
 echo 'Has acertado'
-exit 0
 elif [ $P = 30.5 ];
 then
 echo 'Estuviste cerca'
 else
 echo 'Que burro, pónganle cero'
 fi
-exit 0
 
 ```
