@@ -27,7 +27,17 @@ fi
 1. Entra a la terminal. 
 2. Crea un archivo de texto en tu directorio de trabajo. Puedes usar el comando ``$ touch``. 
 3. Para editar el archivo, puedes hacerlo usando los editores `vim` o `nano`. Aquí podrás encontrar los manuales de [vim](https://vimhelp.org/usr_toc.txt.html) y [nano](https://www.nano-editor.org/dist/v2.1/nano.html) para saber como usarlos.  
-Escribir los comandos a un archivo de texto (escribir el script).
-Indicarle al sistema operativo (computadora) que programa (lenguaje) debe utilizar para interpretar los comandos
-Darle al archivo los permisos que necesita para poder ser ejecutado por Shell.
+4. Indica al sistema operativo de tu computadora con que lenguaje quieres que se interpreten los comandos, puedes hacerlo llamando a bash antes del nombre del script ``$ bash miScript.sh`` o usando el [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) ``#!/bin/bash``en la primer linea del script. 
+
+```
+
+#!/bin/bash
+echo "Escribe una fruta"
+read fruta
+if [ $fruta = manzana ]
+        then echo "yummie, me gustan las manzanas"
+        else echo "iuuugh, asco!"
+fi
+```
+5. Haz ejecutable el archivo, esto consiste en darle los permisos al archivo que acabas de crear para que pueda ser ejecutado por Shell. 
 ![tipos](tipos.png)
