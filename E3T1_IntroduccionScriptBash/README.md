@@ -39,5 +39,9 @@ if [ $fruta = manzana ]
         else echo "iuuugh, asco!"
 fi
 ```
-5. Haz ejecutable el archivo, esto consiste en darle los permisos al archivo que acabas de crear para que pueda ser ejecutado por Shell. 
+5. Haz ejecutable el archivo, esto consiste en darle los permisos, así ``$ chmod u+x miScript.sh`` al archivo que acabas de crear para que pueda ser ejecutado por Shell. 
+
+## Controles de flujo en los scripts 
+Existen diferentes controles de flujo que permiten que el programa responda de un modo u otro dependiendo de las cirscunstancias. 
+
 ![tipos](tipos.png)
