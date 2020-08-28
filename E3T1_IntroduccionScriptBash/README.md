@@ -72,7 +72,7 @@ Ejemplo 1
 
 ```
 for nombresPerros in Boby Firulais "El toby" Chipotle; do
-echo Mi mejor amigo es $nombresPerro; done
+echo Mi mejor amigo es $nombresPerros; done
 ```
 Ejemplo 2
 
