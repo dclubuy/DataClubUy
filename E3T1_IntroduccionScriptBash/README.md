@@ -25,7 +25,8 @@ fi
 
 ## ¿Cómo hago un script en Bash?
 1. Entra a la terminal. 
-2. Crea un archivo de texto en tu directorio de trabajo. Puedes usar el comando `touch`
+2. Crea un archivo de texto en tu directorio de trabajo. Puedes usar el comando ``$ touch``. 
+3. Para editar el archivo, puedes hacerlo usando los editores `vim` o `nano`.
 Escribir los comandos a un archivo de texto (escribir el script).
 Indicarle al sistema operativo (computadora) que programa (lenguaje) debe utilizar para interpretar los comandos
 Darle al archivo los permisos que necesita para poder ser ejecutado por Shell.
