@@ -45,3 +45,107 @@ fi
 Existen diferentes controles de flujo que permiten que el programa responda de un modo u otro dependiendo de las cirscunstancias. 
 
 ![tipos](tipos.png)
+
+## Ejecución linea a linea 
+
+Ejemplo: 
+
+```
+#!/bin/bash
+echo -n "Introduzca un número:"; read x
+echo -n "Introduzca un segundo número:"; read y
+suma=$(($x + $y))
+resta=$(($x - $y))
+mul=$(($x * $y))
+# imprimimos las respuestas:
+echo "La suma de los numeros es:" $suma
+echo "La resta de los numeros es:" $resta
+echo "La multiplicación de los numeros es:" $mul
+sleep 5
+echo "Gracias por usar este programa"
+
+```
+
+## Bucles (for) 
+
+Ejemplo 1
+
+```
+for nombresPerros in Boby Firulais "El toby" Chipotle; do
+echo Mi mejor amigo es $nombresPerro; done
+```
+Ejemplo 2
+
+```
+ladrido=guau
+for i in perro perrito perrote perrototote ; do
+echo El $i hace $ladrido
+done
+```
+También se puede hacer con arreglos. 
+
+```
+p=(perro perrito perrote perrototote)
+for i in ${p[@]}; do 
+echo El $i hace guau; done
+```
+Ejemplo 3
+
+```
+#!/bin/bash
+for (( c=1; c<=20; c++ ))
+do  
+  echo "animal $c"
+done
+```
+
+## Condicionales (if) 
+
+Ejemplo 1
+
+```
+#!/bin/bash
+
+touch directorio_prueba # touch crea un fichero en blanco
+
+if [ -f directorio_prueba ];
+then
+        echo "El fichero existe"
+fi
+```
+Ejemplo 2
+Condición binaria
+```
+
+#!/bin/bash
+echo "Escribe una fruta"
+read fruta
+if [ $fruta = manzana ]
+        then echo "yummie, me gustan las manzanas"
+        else echo "iuuugh, asco!"
+fi
+```
+
+
+Ejemplo 3 
+Condición multiple 
+```
+#!/bin/bash
+#TestIF_ELSE_pies
+
+echo ' ¿Cuántos cm tien un pie?'
+read P
+
+if [ $P = 30.48 ];
+then
+echo 'Has acertado'
+exit 0
+elif [ $P = 30.5 ];
+then
+echo 'Estuviste cerca'
+else
+echo 'Que burro, pónganle cero'
+fi
+exit 0
+
+```
