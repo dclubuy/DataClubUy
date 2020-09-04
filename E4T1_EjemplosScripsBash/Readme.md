@@ -108,3 +108,5 @@ Otra forma de hacer grupos de individuos:
 ```bash
 seq 1 1000 | awk -v seed=$RANDOM 'BEGIN{srand(seed);}{ print  $0, 1  + rand() }'
 ```
+
+Link útil: https://www.gnu.org/software/gawk/manual/html_node/Numeric-Functions.html
