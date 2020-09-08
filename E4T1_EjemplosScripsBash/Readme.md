@@ -71,7 +71,7 @@ awk '{print $1,$2}' $datafile > datana
 
 # Se puede hacer usando un loop 
 
-# nueva variable necesaria ya veremos por que
+# nuevo archivo necesario, ya veremos por que
 echo 0 > filtro
 
 for runs in $(seq 1 4) 
