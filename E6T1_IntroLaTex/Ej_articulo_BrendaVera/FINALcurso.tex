@@ -1,0 +1,490 @@
+
+\documentclass[authoryear,preprint,review,12pt]{elsarticle} % use 
+\usepackage{amssymb}
+\usepackage{lineno} %numbering of lines
+\usepackage{graphicx} 
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{booktabs, caption, makecell}
+\usepackage{longtable}
+\usepackage[english]{babel} 
+\usepackage[utf8]{inputenc}
+%\usepackage{xcolor}
+\usepackage{gensymb}
+\usepackage{threeparttable}
+\usepackage{rotating}
+\usepackage{textcomp}
+\usepackage[authoryear]{natbib}
+\usepackage[table]{xcolor}
+%\usepackage[landscape]{geometry}
+\usepackage{pdflscape}
+\usepackage{ragged2e}
+\usepackage{setspace}	
+\usepackage{adjustbox}	
+
+
+
+\journal{Jornal of jokes and science}
+
+
+\begin{document}
+\doublespacing
+\linenumbers
+\begin{frontmatter}
+
+\title{Definitive laser hair removal in sheep, can be a problem?}
+
+\author[label1]{Kame Sennin}
+\author[label2]{Motoko Kusanagi}
+\author[label1]{Harry Tuttle\corref{cor1}\fnref{label2}} \ead{HarryTuttle@brazil.io}%{Corresponding author}
+\cortext[cor1]{Corresponding author}
+
+
+
+\address[label1]{Hipster Sciences, Star Command University, 12th~House, Route 50, Colonia, Uruguay.}
+
+\address[label2]{Osaka University of Arts, Osaka,  Japan.}
+
+
+\begin{abstract}
+
+This work is the first report on length--weight relationships for 15 fish species from the Lower Uruguay freshwater ecoregion. Fishes were collected between 2008 and 2010 in eight streams (Ca\~{n}ada del Sauce, San Luis, Don Esteban Chico and Grande, de la Palmita, Lencina, del Sauce and del Totoral) that are tributaries of the Negro River (Uruguay). A standardized fishing effort (50 electric pulses along 100 meters) with an electrofishing device (Type IG600T, Hans Grassl GmbH, Sch\"{o}nau am K\"{o}nigssee, Germany) was conducted in each wadeable stream reach. New maximal standard lengths and total weight are given for five and 13 fish species, respectively.
+\end{abstract}
+
+\begin{keyword}
+sheep \sep laser hair removal \sep fishing
+
+\end{keyword}
+
+\end{frontmatter}
+
+
+\section{ Introduction}
+
+The Lower Uruguay ecoregion includes tropical and subtropical rivers in western Rio Grande do Sul State of Brazil, northeastern Argentina, and western Uruguay. This ecoregion has seven to eight freshwater fish species per 10${}^{4}$ km${}^{2}$ and between 10\% and 15\% of endemism, but the overall available information is moderate with small areas of sparse collections \citep{abell_freshwater_2008}. The length-weight relationships (LWRs) of fishes enable a description of how the ecosystems are affecting their development; however, many fish species are still unavailable in FishBase \citep{froese2016d}. Therefore, the aim of our study was to estimate the LWRs of 15 small-body fish from the Lower Uruguay ecoregion.
+
+
+\section{ Materials and methods}
+
+Five sampling campaigns were carried out between September 2008 and November 2010 in eight streams (Ca\~{n}ada del Sauce, San Luis, Don Esteban Chico and Grande, de la Palmita, Lencina, del Sauce and del Totoral) are tributaries of the Negro River (33$\mathrm{{}^\circ}3'48.05''S$, 58$\mathrm{{}^\circ}5'37.11''W$; 32$\mathrm{{}^\circ}2'48.05''S$, 57$\mathrm{{}^\circ}22'37.11''W$).
+
+A standardized fishing effort (50 electric pulses along 100 meters) with an electrofishing device (Type IG600T, Hans Grassl GmbH, Sch\"{o}nau am K\"{o}nigssee, Germany) was conducted in each wadeable stream reach including different habitats (riffles and pools, vegetated and non vegetated zones). Fishes were sacrificed with an overdose of anesthesia (2-phenoxy-ethanol, 1 mL.L${}^{-1}$), fixed in formalin (10\% v/v), and transported to the laboratory for taxonomic determination using specialized keys \citep{ringuelet1967peces,serra2014peces,teixeira2011peces} (Fig \ref{fig:fig-1} ). All specimens were measured for standard length (SL) to the nearest 0.1 centimeters and for body weight (W) to the nearest 0.01 grams, with a caliper and an electronic scale, respectively. Standard length was preferred because it is not sensitive to caudal fin damage.
+
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"Fig 1"}
+	\caption{Ca\~{n}ada del Drag\'on creek basin}
+	\label{fig:fig-1}
+\end{figure*}
+
+
+
+The parameters of equation \ref{eq:1} [W = aL${}^{b}$] \citep{ricker1973linear} were estimated by linear regression in the transformed equation [W = log a + b log SL] and Eq \ref{eq:2}, Eq \ref{eq:3}, Eq \ref{eq:4}, Eq \ref{eq:5} where W is body weight (g), SL is the standard length (cm), a is the y-intercept, and b is the slope. Outlier detected in the log-log plots were removed and excluded from the regression. Additionally, 95\% confidence intervals of a and b, and the determination coefficient (r${}^{2}$) were estimated \citep{zar1999biostatistical}. Statistical procedures were performed with the statistical package R \citep{R_Core_Team}.   Moreover,  the standard length and total weight recorded in our study were compared with previous studies considering the FishBase data \citep{froese2016d}.
+
+
+
+\begin{equation} 
+\label{eq:1}
+CC(\%) = ADF (\%) - Lignin(\%) + Ash(\%)
+\end{equation}
+
+\begin{equation} 
+\label{eq:2}
+PSSF_{Yield}(\%) = \frac{EtOH_{final}[\frac{g}{L}]}{0.51} * Biomass [\frac{g}{L}] * f [\frac{g}{g}] * 1.111 *100
+\end{equation}
+
+\begin{equation} 
+\label{eq:3}
+ \frac{Bioethanol \: mass}{Biomass \: wood} [\frac{Kg}{Mg}] = \frac{PSSF_{Yield}}{100}*1000 [kg]* f * 0.51 * 1.111
+\end{equation}
+
+\begin{equation} 
+\label{eq:4}
+Bioethanol \: Yield [\frac{L_{ethanol}}{Mg_{wood}}] = \frac{Bioethanol \: mass}{Biomass \: wood}[\frac{Kg}{Mg}]*\frac{1}{0.798}[\frac{L}{Kg}]
+\end{equation}
+
+\begin{equation} 
+\label{eq:5}
+Bioethanol  yield [\frac{L}{ha}] = Bioethanolyield [\frac{L_{ethanol}}{Mg_{wood}}]* BiomassYield[\frac{Mg_{wood}}{ha}]
+\end{equation}
+
+
+\section{ Results}
+
+A total of 908 fishes belonging to 15 species, corresponding to eight families from four orders, were analyzed. The LWRs are summarized in Table 1. All linear regressions were highly significant (P $\mathrm{<}$ 0.001), and the coefficient of determination (r${}^{2}$) ranged from 0.947 to 0.994. In addition, we report new maximal standard lengths and total weight for five and 13 fish species, respectively (Table 1).
+
+
+\section{ Discussion}
+
+The slope values ranged between 2.76 for \textit{Scleronema angustirostre }and 3.31 for \textit{Jenynsia onca}, all within the range suggested by \cite{pauly1997bee}. The y-intercept values ranged from  0.0073 in \textit{Rineloricaria longicauda} to 0.0414 in \textit{Australoheros scitulus}, results that agree with the ranged reported by \cite{froese2006cube}. 
+\justifying
+The comparison of a and b values calculated in our study with 95\% confidence limits of Bayesian estimation reported  FishBase \citep{froese2016d}, the fish species could be divided into three groups: (i) species with a and b values within the Bayesian's confidence intervals  (\textit{Ancistrus taunayi}, \textit{Astyanax abramis}, \textit{Australoheros scitulus}, \textit{Characidium pterostictum}, \textit{Ectrepopterus uruguayensis}, \textit{Gymnogeophagus gymnogenys}, \\
+\textit{Hisonotus nigricauda} and\textit{ Steindachnerina biornata}; (ii) species with some parameters out the interval (\textit{Astyanax eigenmanniorum}, \textit{Bunocephalus doriae}, \textit{Crenicichla lepidota} \textit{Jenynsia onca}, \textit{Rineloricaria longicauda} and \textit{Scleronema angustirostre}) and (iii) a fish species with both values out the intervals (\textit{Cyanocharax uruguayensis}).  Most b values were lower than those reported in FishBase (Bayesian estimation), excepted for \textit{Astyanax abramis}, \textit{Hisonotus nigricauda}, \textit{Ancistrus taunayi} and \textit{Jenynsia onca } that showed higher values than Bayesian`s estimation.  While as all the y-intercept values were higher than those estimated by Bayesian approach and the ratios ranged between 1.2 (\textit{Astyanax abramis}) and 5.2 (\textit{Crenicichla lepidota}). 
+
+
+
+On the other hand, the LWRs reported for \textit{Steindachnerina biornata}, \textit{Gymnogeophagus gymnogenys}, and \textit{Ancistrus taunayi} should be taken with caution because this study covers a narrow range of the known size (only juvenile or sub adult fishes).
+
+It is important to highlight that the data presented in our study were obtained from fishes fixed in formaldehyde. Some authors reported that the length might change slightly with this preservation method \citep{ajah_effects_2003,al-hassan_effect_2000}, with some reporting changes in biomass (increase in 5\% after 15 days) and length (decrease in 5\%) in formalin-fixed specimens \citep{nielsen_fisheries_1983} . For this reason, it is recommended to measure the fresh fish and then to measure them again after fixing in formalin, to determine the respective correction factors. 
+
+\justifying
+
+During the last 10 years, the Lower Uruguay ecoregion has undergone important land use changes that may be affecting the structure and function of aquatic ecosystems \citep{cespedes-payret_irruption_2009}. Therefore , these studies contribute to the development of conservation strategies geared to the preservation of fish diversity and water quality.
+
+
+\section{ Acknowledgments}
+
+We are  to the INIA Sa07 project for providing financial support.
+
+\bibliographystyle{elsarticle-harv} 
+\bibliography{final}
+
+\newpage
+\thispagestyle{empty}
+
+\begin{landscape}
+	
+	\begin{table}[]
+	\centering
+%	\begin{adjustbox}{width=1\textwidth}
+		
+	\caption{Parameters of weight–length relationships for 15 species, which are listed alphabetically within orders and families. Standard length (SL) in cm,  total weight (TW) in g;  n, number of specimens measured; Min, minimum; Max, maximum; a, the intercept of linear regression; b, the slope b of LWR; r${}^{2}$, determination coefficient; and in brackets, the  95\% confidence intervals. }
+	\label{tab:table1}
+		\scalebox{0.85}{
+	\begin{tabular}{
+			>{\columncolor[HTML]{FFFFFF}}l 
+			>{\columncolor[HTML]{FFFFFF}}l 
+			>{\columncolor[HTML]{FFFFFF}}c 
+			>{\columncolor[HTML]{FFFFFF}}c 
+			>{\columncolor[HTML]{FFFFFF}}c 
+			>{\columncolor[HTML]{FFFFFF}}c 
+			>{\columncolor[HTML]{FFFFFF}}c 
+			>{\columncolor[HTML]{FFFFFF}}c 
+			>{\columncolor[HTML]{FFFFFF}}c 
+			>{\columncolor[HTML]{FFFFFF}}c }
+		\toprule
+		\multicolumn{1}{c}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{00000A} \textbf{Order /   Family}}} &
+		\multicolumn{1}{c}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{00000A} \textbf{Specie}}} &
+		{\color[HTML]{000000} \textbf{}} &
+		\multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{00000A} \textbf{SL   (cm)}}} &
+		\multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{00000A} \textbf{TW (g)}}} &
+		\multicolumn{3}{c}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{00000A} \textbf{Relationship   parameters}}} \\ \hline
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} n} &
+		{\color[HTML]{00000A} Min.} &
+		{\color[HTML]{00000A} Max.} &
+		{\color[HTML]{00000A} Min.} &
+		{\color[HTML]{00000A} Max.} &
+		{\color[HTML]{00000A} a   ± CL 95\%} &
+		{\color[HTML]{00000A} b   ± CL 95\%} &
+		{\color[HTML]{00000A} r${}^{2}$} \\ %\cline{3-10} 
+		\midrule
+		{\color[HTML]{00000A} Characiformes} &
+		{\color[HTML]{00000A} \textit{Astyanax abramis}} &
+		{\color[HTML]{00000A} 113} &
+		{\color[HTML]{00000A} 4.1} &
+		{\color[HTML]{00000A} 10} &
+		{\color[HTML]{00000A} 2.1} &
+		{\color[HTML]{00000A} \textbf{29.7}} &
+		{\color[HTML]{00000A} 0.0219} &
+		{\color[HTML]{00000A} 3.17} &
+		{\color[HTML]{00000A} 0.955} \\
+		{\color[HTML]{00000A} Characidae} &
+		{\color[HTML]{00000A} (Aguerre,   1842)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0168-0.0285)} &
+		{\color[HTML]{00000A} (3.0424-3.3017)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{000000} } &
+		{\color[HTML]{00000A} \textit{Astyanax eigenmanniorum}} &
+		{\color[HTML]{00000A} 183} &
+		{\color[HTML]{00000A} 2.8} &
+		{\color[HTML]{00000A} 5.5} &
+		{\color[HTML]{00000A} 0.7} &
+		{\color[HTML]{00000A} \textbf{4.4}} &
+		{\color[HTML]{00000A} 0.0362} &
+		{\color[HTML]{00000A} 2.77} &
+		{\color[HTML]{00000A} 0.956} \\
+		{\color[HTML]{000000} } &
+		{\color[HTML]{00000A} (Calero,   1894)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0318-0.0411)} &
+		{\color[HTML]{00000A} (2.6862-2.8599)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textit{Cyanocharax uruguayensis}} &
+		{\color[HTML]{00000A} 22} &
+		{\color[HTML]{00000A} 2.4} &
+		{\color[HTML]{00000A} \textbf{5.1}} &
+		{\color[HTML]{00000A} 0.3} &
+		{\color[HTML]{00000A} \textbf{2.8}} &
+		{\color[HTML]{00000A} 0.0225} &
+		{\color[HTML]{00000A} 2.96} &
+		{\color[HTML]{00000A} 0.976} \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (Casalás,   1962)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0165-0.0307)} &
+		{\color[HTML]{00000A} (2.7386-3.1740)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{000000} } &
+		{\color[HTML]{000000} \textit{Ectrepopterus uruguayensis}} &
+		{\color[HTML]{000000} 44} &
+		{\color[HTML]{00000A} 2.6} &
+		{\color[HTML]{00000A} \textbf{5.1}} &
+		{\color[HTML]{00000A} 0.5} &
+		{\color[HTML]{00000A} \textbf{3.5}} &
+		{\color[HTML]{000000} 0.0327} &
+		{\color[HTML]{000000} 2.82} &
+		{\color[HTML]{000000} 0.975} \\
+		{\color[HTML]{000000} } &
+		{\color[HTML]{000000} (Cougo,   1943)} &
+		{\color[HTML]{000000} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{000000} (0.0276-0.0388)} &
+		{\color[HTML]{000000} (2.6697-2.9572)} &
+		{\color[HTML]{000000} } \\
+		{\color[HTML]{000000} Crenuchidae} &
+		{\color[HTML]{000000} \textit{Characidium pterostictum}} &
+		{\color[HTML]{000000} 39} &
+		{\color[HTML]{00000A} 2} &
+		{\color[HTML]{00000A} 6.9} &
+		{\color[HTML]{00000A} 0.1} &
+		{\color[HTML]{00000A} \textbf{5.2}} &
+		{\color[HTML]{000000} 0.0162} &
+		{\color[HTML]{000000} 3} &
+		{\color[HTML]{000000} 0.974} \\
+		{\color[HTML]{000000} } &
+		{\color[HTML]{000000} (Di   Lorezi, 1947)} &
+		{\color[HTML]{000000} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{000000} (0.0130-0.0201)} &
+		{\color[HTML]{000000} (2.8367-3.1649)} &
+		{\color[HTML]{000000} } \\
+		{\color[HTML]{00000A} Curimatidae} &
+		{\color[HTML]{00000A} \textit{Steindachnerina biornata}} &
+		{\color[HTML]{00000A} 43} &
+		{\color[HTML]{00000A} 2.6} &
+		{\color[HTML]{00000A} 7.5} &
+		{\color[HTML]{00000A} 0.5} &
+		{\color[HTML]{00000A} 10.6} &
+		{\color[HTML]{00000A} 0.0309} &
+		{\color[HTML]{00000A} 2.92} &
+		{\color[HTML]{00000A} 0.99} \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (Duarte   \& Barea, 1987)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (0.0268-0.0355)} &
+		{\color[HTML]{00000A} (2.8254-3.0153)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{00000A} Cyprinodontiformes} &
+		{\color[HTML]{00000A} \textit{Jenynsia onca}} &
+		{\color[HTML]{00000A} 7} &
+		{\color[HTML]{00000A} 2.6} &
+		{\color[HTML]{00000A} \textbf{4.5}} &
+		{\color[HTML]{00000A} 0.3} &
+		{\color[HTML]{00000A} \textbf{2}} &
+		{\color[HTML]{00000A} 0.0134} &
+		{\color[HTML]{00000A} 3.31} &
+		{\color[HTML]{00000A} 0.976} \\
+		{\color[HTML]{00000A} Anablepidae} &
+		{\color[HTML]{00000A} (Errandonea,   2002)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0064-0.0282)} &
+		{\color[HTML]{00000A} (2.7075-3.9124)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{00000A} Perciformes} &
+		{\color[HTML]{00000A} \textit{Australoheros scitulus}} &
+		{\color[HTML]{00000A} 86} &
+		{\color[HTML]{00000A} 1.7} &
+		{\color[HTML]{00000A} \textbf{11}} &
+		{\color[HTML]{00000A} 0.3} &
+		{\color[HTML]{00000A} \textbf{49.8}} &
+		{\color[HTML]{00000A} 0.0414} &
+		{\color[HTML]{00000A} 3.01} &
+		{\color[HTML]{00000A} 0.984} \\
+		{\color[HTML]{00000A} Cichlidae} &
+		{\color[HTML]{00000A} (Figueroa,   2003)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0368-0.0467)} &
+		{\color[HTML]{00000A} (2.9306-3.0976)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textit{Crenicichla lepidota}} &
+		{\color[HTML]{00000A} 29} &
+		{\color[HTML]{00000A} 3} &
+		{\color[HTML]{00000A} 13} &
+		{\color[HTML]{00000A} 0.6} &
+		{\color[HTML]{00000A} \textbf{50.6}} &
+		{\color[HTML]{00000A} 0.0203} &
+		{\color[HTML]{00000A} 3.03} &
+		{\color[HTML]{00000A} 0.994} \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (García   Pintos, 1840)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0171-0.0240)} &
+		{\color[HTML]{00000A} (2.9372-3.1255)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textit{Gymnogeophagus gymnogenys}} &
+		{\color[HTML]{00000A} 38} &
+		{\color[HTML]{00000A} 2.2} &
+		{\color[HTML]{00000A} 8.4} &
+		{\color[HTML]{00000A} 0.3} &
+		{\color[HTML]{00000A} \textbf{26}} &
+		{\color[HTML]{00000A} 0.0331} &
+		{\color[HTML]{00000A} 3.03} &
+		{\color[HTML]{00000A} 0.977} \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (Hernandez,   1870)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0273-0.0401)} &
+		{\color[HTML]{00000A} (2.8739-3.1860)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{000000} Siluriformes} &
+		{\color[HTML]{000000} \textit{Bunocephalus doriae}} &
+		{\color[HTML]{000000} 7} &
+		{\color[HTML]{00000A} 2} &
+		{\color[HTML]{00000A} 5} &
+		{\color[HTML]{00000A} 0.1} &
+		{\color[HTML]{00000A} \textbf{2}} &
+		{\color[HTML]{000000} 0.0149} &
+		{\color[HTML]{000000} 3.01} &
+		{\color[HTML]{000000} 0.984} \\
+		{\color[HTML]{000000} Aspredinidae} &
+		{\color[HTML]{000000} (Marques,   1902)} &
+		{\color[HTML]{000000} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{000000} (0.0088-0.0251)} &
+		{\color[HTML]{000000} (2.5706-3.4424)} &
+		{\color[HTML]{000000} } \\
+		{\color[HTML]{00000A} Loricariidae} &
+		{\color[HTML]{00000A} \textit{Ancistrus taunayi}} &
+		{\color[HTML]{00000A} 6} &
+		{\color[HTML]{00000A} 2.7} &
+		{\color[HTML]{00000A} 4.6} &
+		{\color[HTML]{00000A} 0.4} &
+		{\color[HTML]{00000A} 2.3} &
+		{\color[HTML]{00000A} 0.0195} &
+		{\color[HTML]{00000A} 3.17} &
+		{\color[HTML]{00000A} 0.947} \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (Quintero,   1918)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (0.0052-0.0725)} &
+		{\color[HTML]{00000A} (2.1263-4.2093)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textit{Hisonotus nigricauda}} &
+		{\color[HTML]{00000A} 57} &
+		{\color[HTML]{00000A} 2.2} &
+		{\color[HTML]{00000A} 4.6} &
+		{\color[HTML]{00000A} 0.2} &
+		{\color[HTML]{00000A} \textbf{2.1}} &
+		{\color[HTML]{00000A} 0.018} &
+		{\color[HTML]{00000A} 3.12} &
+		{\color[HTML]{00000A} 0.952} \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (Tachini,   1891)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0145-0.0223)} &
+		{\color[HTML]{00000A} (2.9357-3.3134)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textit{Rineloricaria longicauda}} &
+		{\color[HTML]{00000A} 107} &
+		{\color[HTML]{00000A} 1.6} &
+		{\color[HTML]{00000A} 9.8} &
+		{\color[HTML]{00000A} 0.04} &
+		{\color[HTML]{00000A} \textbf{7.4}} &
+		{\color[HTML]{00000A} 0.0073} &
+		{\color[HTML]{00000A} 2.91} &
+		{\color[HTML]{00000A} 0.973} \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (Vera,   1983)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0063-0.0086)} &
+		{\color[HTML]{00000A} (2.8116-2.9999)} &
+		{\color[HTML]{00000A} } \\
+		{\color[HTML]{00000A} Trichomycteridae} &
+		{\color[HTML]{00000A} \textit{Scleronema angustirostre}} &
+		{\color[HTML]{00000A} 31} &
+		{\color[HTML]{00000A} 2.4} &
+		{\color[HTML]{00000A} \textbf{5.7}} &
+		{\color[HTML]{00000A} 0.2} &
+		{\color[HTML]{00000A} \textbf{1.8}} &
+		{\color[HTML]{00000A} 0.0153} &
+		{\color[HTML]{00000A} 2.76} &
+		{\color[HTML]{00000A} 0.984} \\
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} (Verocai,   1942)} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} } &
+		{\color[HTML]{00000A} \textbf{}} &
+		{\color[HTML]{00000A} (0.0128-0.0182)} &
+		{\color[HTML]{00000A} (2.6228-2.8939)} &
+		{\color[HTML]{00000A} } 
+	\end{tabular}
+}
+%\end{adjustbox}
+\end{table}
+
+\end{landscape}
+
+\end{document}
